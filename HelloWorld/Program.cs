@@ -35,6 +35,14 @@ namespace HelloWorld
             // lets you put expressions such as variable names in curly braces in the string.
             // The expression value is inserted into the string in place of the expression.
             // This syntax is referred to as interpolated strings.
+
+            // You may set the below line as the breakpoint by ctrl+\, and ctrl+click, select "Edit Breakpoint"
+            // Add the following condition is true and select "Apply"
+            // String.IsNullOrEmpty(name)
+
+            // Press ⌘↵ (command+enter) to start debugging.
+            // Press ⇧⌘I (shift+command+I) or select Run > Step Into to advance one line.
+            // Press ⇧⌘U (shift+command+U) or select Run > Step Out.
             Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
             Console.Write($"{Environment.NewLine}Press any key to exit...");
             Console.ReadKey(true);
